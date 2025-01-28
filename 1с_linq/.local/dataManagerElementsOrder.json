@@ -1,0 +1,105 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "filtering_linq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "i&Sequence_4",
+        "index&Sequence_1",
+        "list_Second_head&Sequence_4",
+        "list_First_head&Sequence_4",
+        "_Excel&Sequence_1",
+        "list_Second_empt&Sequence_4",
+        "list_First_empt&Sequence_4",
+        "arr_SheetsList&Sequence_4",
+        "SheetsList&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_list_exceptionRow",
+        "out_dt_First",
+        "out_dt_Second"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Yelow&Sequence_1",
+        "dt_Red&Sequence_1",
+        "dt_Merged&Sequence_1",
+        "list_exceptionRow&Sequence_1",
+        "dt_Second_reconstruction&Sequence_1",
+        "dt_First_reconstruction&Sequence_1",
+        "dt_Second&Sequence_1",
+        "dt_First&Sequence_1",
+        "in_form1cStart&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_formINN",
+        "out_formDocNumber",
+        "out_formStartDate",
+        "out_formEndDate",
+        "out_formFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "1_download.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_formINN",
+        "in_formDocNumber",
+        "in_formStartDate",
+        "in_formEndDate",
+        "in_formFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "merge_linq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Second_reconstruction&Sequence_1",
+        "dt_First_reconstruction&Sequence_1",
+        "dt_empty_debet&Sequence_1",
+        "list_Row_Second&Sequence_4",
+        "j&Sequence_1",
+        "list_ID_Second&Sequence_1",
+        "list_Row_First&Sequence_4",
+        "list_Row_First&Sequence_2",
+        "i&Sequence_1",
+        "list_Data_First&Sequence_1",
+        "list_ID_First&Sequence_1",
+        "str_regexp6&Sequence_1",
+        "str_regexp5&Sequence_1",
+        "str_regexp4&Sequence_1",
+        "str_regexp3&Sequence_1",
+        "str_regexp2&Sequence_1",
+        "str_regexp1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dt_Merged",
+        "in_dt_First",
+        "in_dt_Second"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": [
+        "System.Text.RegularExpressions",
+        "System.Text.RegularExpressions"
+      ]
+    }
+  ]
+}

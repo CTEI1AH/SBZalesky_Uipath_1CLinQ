@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Excel (Нелицензированный продукт)",
+  "Type": "Screen",
+  "Id": "XdcdKldFjUK5Vh2CwWdYeA",
+  "Reference": "g8FxR5T_JESfwD9eRvHAgw/XdcdKldFjUK5Vh2CwWdYeA",
+  "ParentRef": "g8FxR5T_JESfwD9eRvHAgw/gA3KLQNUAEazYWmcQ5iBJQ",
+  "Created": "2025-01-24T11:49:58.2141137Z",
+  "Updated": "2025-01-24T11:49:58.2141137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Excel (Нелицензированный продукт)",
+  "Type": "App",
+  "Id": "_XNyA3PmyECllJtZfetPVw",
+  "Reference": "g8FxR5T_JESfwD9eRvHAgw/_XNyA3PmyECllJtZfetPVw",
+  "Created": "2025-01-24T11:49:58.0288233Z",
+  "Updated": "2025-01-24T11:49:58.0288233Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

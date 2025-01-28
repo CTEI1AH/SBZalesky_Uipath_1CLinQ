@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Акты_Исходные.xlsx - Excel",
+  "Type": "Screen",
+  "Id": "YJyZeSmWw0SeAYRvBOxWag",
+  "Reference": "g8FxR5T_JESfwD9eRvHAgw/YJyZeSmWw0SeAYRvBOxWag",
+  "ParentRef": "g8FxR5T_JESfwD9eRvHAgw/gA3KLQNUAEazYWmcQ5iBJQ",
+  "Created": "2025-01-27T15:02:19.7844117Z",
+  "Updated": "2025-01-27T15:02:19.7844117Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

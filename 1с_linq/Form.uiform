@@ -1,0 +1,125 @@
+﻿{
+  "Metadata": {
+    "Id": "d2581aa6-9ab7-4842-b365-5fbda9a59262",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "1cForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "title": "Введите данные",
+        "collapsible": false,
+        "key": "panel",
+        "type": "panel",
+        "label": "Panel",
+        "input": false,
+        "tableView": false,
+        "components": [
+          {
+            "label": "ИНН",
+            "description": "10 или 12 чисел",
+            "tableView": false,
+            "delimiter": false,
+            "requireDecimal": false,
+            "truncateMultipleSpaces": false,
+            "key": "in_formINN",
+            "type": "number",
+            "input": true
+          },
+          {
+            "label": "Номер договора",
+            "widget": "choicesjs",
+            "tableView": true,
+            "data": {
+              "values": [
+                {
+                  "label": "123",
+                  "value": "123"
+                }
+              ]
+            },
+            "key": "in_formDocNumber",
+            "type": "select",
+            "input": true
+          },
+          {
+            "label": "Table",
+            "cellAlignment": "left",
+            "key": "table",
+            "type": "table",
+            "numCols": 2,
+            "input": false,
+            "tableView": false,
+            "rows": [
+              [
+                {
+                  "components": [
+                    {
+                      "label": "Дата с:",
+                      "labelPosition": "left-right",
+                      "description": "dd.mm.eeee",
+                      "inputMask": "99.99.9999",
+                      "tableView": true,
+                      "key": "in_formStartDate",
+                      "type": "textfield",
+                      "input": true
+                    }
+                  ]
+                },
+                {
+                  "components": [
+                    {
+                      "label": "по",
+                      "labelPosition": "left-right",
+                      "description": "dd.mm.eeee",
+                      "inputMask": "99.99.9999",
+                      "tableView": true,
+                      "key": "in_formEndDate",
+                      "type": "textfield",
+                      "input": true
+                    }
+                  ]
+                }
+              ]
+            ],
+            "numRows": 1
+          },
+          {
+            "label": "Путь сохранения",
+            "tableView": true,
+            "key": "in_formFolderPath",
+            "type": "textfield",
+            "input": true,
+            "keyModified": true
+          }
+        ]
+      },
+      {
+        "label": "Запустить 1С",
+        "tableView": false,
+        "defaultValue": false,
+        "key": "in_form1cStart",
+        "type": "checkbox",
+        "input": true
+      },
+      {
+        "label": "Подтвердить",
+        "action": "event",
+        "showValidations": false,
+        "tableView": false,
+        "key": "form_startButton",
+        "properties": {
+          "1": "1"
+        },
+        "type": "button",
+        "input": true
+      }
+    ]
+  }
+}
